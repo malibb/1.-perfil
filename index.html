@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= -width, initial-scale=1.0">
+    <title>Cabecera</title>
+</head>
+<body>
+    <!-- Sección de mi cabecera. -->
+    <header style="background-color:lightcyan;">
+        <h1>Título de mi página dentro de la sección de la cabecera utilizando una etiqueta de cabecera tamaño 1.</h1>
+        <!-- Sección de mi navbar-->
+        <nav id="navegacion" style="background-color:lightgrey;">
+            <h2>Navegación</h2>
+            <span style="background-color: lemonchiffon;">
+                <h3>Lista Desordenada (unordered list)</h3>
+                <ul>
+                    <li><a href="#aceitunas">Aceitunas (con uso de selector :D)</a></li>
+                    <li><a href="#gatitos">Gatitos (con uso de selector :D)</a></li>
+                </ul>
+            </span>
+            <span>
+                <h3>Lista Ordenada (ordered list)</h3>
+                <ol style="background-color: ivory;">
+                    <li><a href="#footer">Footer (con uso de selector :D)</a></li>
+                    <li><a href="#table">Table (con uso de selector :D)</a></li>
+                </ol>
+            </span>
+        </nav>
+    </header>
+    
+    <!-- Seccion del main -->
+    <main>
+        <section id="gatitos" style="background-color: coral;">
+            <h1>Gatitos</h1>
+            <img style="width: 100%;" src="img/gatitos.gif" alt="gatitos"/>
+            <h5>
+                <a href="#navegacion"> Regresar a la sección de navegación.</a>
+            </h5>
+        </section>
+        <section id="about" style="background-color: cyan;">
+            <h2>Sobre mí</h2> 
+            <p style="background-color: violet;">
+                Si quieres saber más sobre mi, da click 
+                <a href="about.html" target="_blank">acá</a>
+                .
+            </p>
+            <p style="background-color: hotpink;">
+                Tengo 21 años y me encanta aprender, creo que en algún momento
+            </p>
+            <h5>
+                <a href="#navegacion"> Regresar a la sección de navegación.</a>
+            </h5>
+        </section>
+        <section id="table" style="background-color: orange;">
+            <h2>Tables</h2>
+            <span>
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" type="text" placeholder="Ingresa tu nombre"/>
+            </span>
+            <table>
+                <thead>
+                    <!-- TR: Fila TR [TD(Nom), TD(Nom), TD(Nom) ]-->
+                    <tr>
+                        <td><strong>Nombre</strong></td>
+                        <td><strong>Correo</strong></td>
+                    </tr>
+                </thead>
+                <tbody>
+                <!-- TR: Fila TR [TD(Nom), TD(Nom), TD(Nom) ]-->
+                    <tr>
+                        <td> Mali </td>
+                        <td> mali@devf.mx </td>
+                    </tr>
+                <!-- TR: Fila TR [TD(Nom), TD(Nom), TD(Nom) ]-->
+                    <tr>
+                        <td> Luz </td>
+                        <td> luz@devf.mx </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>
+                <a href="#navegacion"> Regresar a la sección de navegación.</a>
+            </h5>
+        </section>
+        <section id="aceitunas" style="background-color: olive;">
+            <h2>Aceitunas</h2>
+            <img src="https://www.consalud.es/estetic/uploads/s1/11/21/52/9/las-aceitunas-constituyen-una-fuente-muy-importante-de-oleato-foto-freepik.jpeg" width="100%" alt="aceitunas"/>
+            <span>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+            </span>
+            <h5>
+                <a href="#navegacion"> Regresar a la sección de navegación.</a>
+            </h5>        
+        </section>
+        <aside id="aside" style="background-color: yellowgreen;">
+            <h2>A side</h2>
+            <button id="button1" name="button1">Da click!</button>
+            <h5>
+                <a href="#navegacion"> Regresar a la sección de navegación.</a>
+            </h5>        
+        </aside>
+    </main>
+    
+    <!-- Sección del píe de página.-->
+    <footer id="footer" style="background-color: darkgreen;">
+        <h2>Footer</h2>
+        <h5>
+            <a href="#navegacion"> Regresar a la sección de navegación.</a>
+        </h5>
+    </footer>
+</body>
+</html>

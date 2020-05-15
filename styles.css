@@ -1,0 +1,43 @@
+.padre {
+    width: 700px;
+    height: 500px;
+    /* FlexBOX*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo {
+    width: 200px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.padre div#tres{
+    order:1;
+}
+
+.grow{
+    flex-grow: 1;
+}
+.srink{
+ flex-shrink: 2;
+}
+
+.is-color-green {
+    background-color: chartreuse;
+}
+
+.is-color-white {
+    background-color: white;
+}
+
+.is-color-red {
+    background-color: red;
+}
+
+.is-color-beige {
+    background-color: burlywood;
+}
