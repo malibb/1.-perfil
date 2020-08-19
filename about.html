@@ -9,10 +9,22 @@
 </head>
 <body>
     <div class="padre is-color-beige">
-        <div class="hijo is-color-green" id="uno" >1er hijo</div>
+        <ul>
+            <li onclick="cambiarLink('index.html')">
+                Cargar index
+            </li>
+            <li onclick="cambiarLink('contact.html')">
+                Cargar contact
+            </li>
+        </ul>
+        <div class="hijo is-color-green" id="uno" >
+            <iframe id="main" src="contact.html" title="W3Schools Free Online Web Tutorials">
+            </iframe>
+        </div>
         <div class="hijo is-color-white" id="dos">3er hijo</div>
         <div class="hijo is-color-red" id="tres">2do hijo</div>
     </div>
+    
 </body>
 
 </html>
